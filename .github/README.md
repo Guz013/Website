@@ -1,20 +1,22 @@
-<center>
-<h1><b>&lt;Website.013&#47;&gt;</b></h1>
+<div align='center'>
+<h1>
+	<b>&lt;Website.013&#47;&gt;</b>
+</h1>
 
 *"Someone who's trying to improve his website."*
 
-![guz-badge] ![license-badge] ![version-badge] ![dependencies-badge]
+![guz-badge] ![license-badge] ![version-badge]
 
-</center>
+</div align='center'>
 
 This is my (*[probably overcomplicated](#tools-used)*) website. It's designed to be a simple way to access social media links and forms of contact. 
 
 [Licensed under the MIT license](#license) so you also can use it to make your version of this website.
 
 ---
-<center>
-<h4><b>-<a href="./TODO.md"> TODO </a>-<a href="./IDEAS.md"> IDEAS </a>-</b></h4>
-</center>
+<div align='center'>
+	<h4><b>-<a href="./TODO.md"> TODO </a>-<a href="./IDEAS.md"> IDEAS </a>-</b></h4>
+</div>
 
 ---
 
@@ -41,7 +43,8 @@ Copyright &copy; 2022 Gustavo "Guz" L. de Mello
 The source code of this project is licensed under the [MIT license](./LICENSE). *This does not grant you permission to use any of Guz's trademarks.*
 
 ---
-[guz-badge]: https://img.shields.io/badge/By-Guz013-white?style=flat-square
-[version-badge]: https://img.shields.io/github/package-json/v/guz013/website?label=Version&logo=github&logoColor=white&
-[dependencies-badge]: https://img.shields.io/depfu/guz013/website?label=Dependencies&logo=npm&logoColor=white&style=flat-square
-[license-badge]: https://img.shields.io/github/license/guz013/website?label=License&logo=Open%20Source%20Initiative&logoColor=white&style=flat-square
+[guz-badge]: https://img.shields.io/badge/By-Guz013-white?style=flat-square&labelColor=black&color=cyan
+
+[version-badge]: https://img.shields.io/github/package-json/v/guz013/website?style=flat-square&label=Version&logo=github&logoColor=blueviolet&labelColor=black&color=blueviolet
+
+[license-badge]: https://img.shields.io/github/license/guz013/website?style=flat-square&label=License&logo=Open%20Source%20Initiative&logoColor=white&labelColor=black&color=white
