@@ -1,0 +1,41 @@
+@import './fonts.css';
+@import './variables.scss';
+@import './commons.scss';
+
+* {
+	user-select: none;
+	transition: all 0.2s ease;
+	color: $main-color;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+	/*
+	? NOTE: It's possible that the image is bigger than necessary,
+	? maybe in case of bad performance use the <Image/>
+	? https://nextjs.org/docs/basic-features/image-optimization
+	*/
+	background-color: $background-color;
+	background-image: url(../../public/images/carbonBackground.png);
+	background-size: cover;
+
+	@media (max-width: 700px) {
+		background-position-x: -50vw;
+	}
+}
+
+a {
+	font-family: $console-font;
+	&:hover {
+		filter: $cascading-shadows;
+	}
+	&:active,
+	&:link,
+	&:visited {
+		text-decoration: none;
+		color: $main-color;
+	}
+}

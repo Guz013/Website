@@ -1,0 +1,91 @@
+@import '../variables.scss';
+@import '../commons.scss';
+
+.card {
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	.main {
+		text-align: center;
+		font-family: $guz-font, monospace;
+		font-weight: 700;
+
+		.logo {
+
+			z-index: 4;
+
+			filter: drop-shadow(0px 0px 5px #ffffff3f);
+
+			margin-top: 0;
+			
+			Image {
+				margin: 0px;
+			}
+
+			h1 {
+				margin: -10px;
+				font-size: 20px;
+			}
+		}
+
+		.quote {
+
+			z-index: 3;
+
+			margin-top: 50px;
+			font-size: 25px;
+
+			@media (max-width: 400px) {
+				font-size: 20px;
+			}
+
+			filter:
+				drop-shadow(0px 0px 5px #ffffff3f)
+				drop-shadow(0px 20px 0 $purple-color)
+				drop-shadow(-0px -20px 0 $cyan-color)
+				drop-shadow(0px 60px 1px #7100fb4d)
+				drop-shadow(-0px -60px 1px #00defb4d)
+				drop-shadow(0px 120px 2px #7100fb11)
+				drop-shadow(-0px -120px 2px #00defb11)
+			;
+
+			&:hover {
+				transition-delay: 0.1s;
+				filter:
+					drop-shadow(0px 0px 5px #ffffff3f)
+					drop-shadow(0px 3px 0 $purple-color)
+					drop-shadow(-0px -3px 0 $cyan-color)
+					drop-shadow(0px 10px 1px #7100fb4d)
+					drop-shadow(-0px -10px 1px #00defb4d)
+					drop-shadow(0px 20px 2px #7100fb11)
+					drop-shadow(-0px -20px 2px #00defb11)
+				;
+			}
+		}
+
+		.support {
+			z-index: 4;
+
+			display: inline-block;
+
+			font-size: 17px;
+			font-family: $console-font;
+			font-weight: Medium;
+
+			border: 0;
+			border-radius: 15px;
+			margin-top: 20%;
+
+			background: transparent;
+
+			&:hover {
+				transition-delay: 0.1s;
+				font-size: 21px;
+			}
+
+		}
+	}
+}

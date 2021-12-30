@@ -1,0 +1,23 @@
+@import '../variables.scss';
+
+.main {
+	
+	.list {
+	
+		margin: 0;
+		padding: 0px;
+		list-style: none;
+		text-align: center;
+	
+		.item {
+			color: transparent;
+			background: linear-gradient(-45deg, $purple-color 20%, $cyan-color 80%);
+			background-clip: text;
+
+			font-size: 12px;
+			font-weight: normal;
+			padding: 0px 5px;
+			display: inline;
+		}
+	}
+}

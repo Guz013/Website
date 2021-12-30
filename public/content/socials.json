@@ -1,0 +1,53 @@
+[
+	{
+		"name": "Twitter",
+		"username": "@Guz013_",
+		"url": "https://twitter.com/guz013_",
+		"art": {
+			"username": "@GuzsArt",
+			"url": "https://twitter.com/guzsart"
+		}
+	},
+	{
+		"name": "Mastodon",
+		"username": "@Guz013",
+		"url": "https://mastodon.social/@guz013",
+		"art": {
+			"username": "@GuzsArt",
+			"url": "https://mastodon.social/@guzsart"
+		}
+	},
+	{
+		"name": "Instagram",
+		"username": "@Guz013_",
+		"url": "https://instagram.com/guz013_",
+		"art": {
+			"username": "@GuzsArt",
+			"url": "https://instagram.com/guzsart"
+		}
+	},
+	{
+		"name": "Pixelfed",
+		"username": "@Guz013_",
+		"url": "https://pixelfed.social/guz013",
+		"art": {
+			"username": "@GuzsArt",
+			"url": "https://pixelfed.social/guzsart"
+		}
+	},
+	{
+		"name": "GitHub",
+		"username": "@Guz013",
+		"url": "https://github.com/guz013"
+	},
+	{
+		"name": "YouTube",
+		"username": "Guz013",
+		"url": "https://www.youtube.com/channel/UCc6pFj1l2cEej3lT4-U-Q3Q"
+	},
+	{
+		"name": "Odysee",
+		"username": "@Guz013",
+		"url": "https://odysee.com/@Guz013:c97eeaded3bf99132ca473b60ec2f802f50b76f2"
+	}
+]

@@ -1,0 +1,7 @@
+@import './variables.scss';
+
+$cascading-shadows: 
+	drop-shadow(0px 0px 5px $background-color)
+	drop-shadow(0px 5px 0px $purple-color)
+	drop-shadow(-0px -5px 0px $cyan-color)
+;

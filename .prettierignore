@@ -1,9 +1,23 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+.prettierrc
+.prettierignore
+
+.gitignore
+.gitattributes
+
+.eslintrc
+.eslintignore
+
+*.scss
+*.css
+*.json
+*.md
+*.d.ts
 
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
+package-lock.json
 
 # testing
 /coverage
@@ -11,6 +25,7 @@
 # next.js
 /.next/
 /out/
+next-env.d.ts
 
 # production
 /build

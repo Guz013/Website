@@ -1,0 +1,81 @@
+@import '../variables.scss';
+
+// ! Probably there's a better way to do this.
+
+.main {
+	transition: all 0s ease;
+	z-index: 1;
+
+	position: fixed;
+	width: 100vw; height: 100vh;
+	top: 0; overflow: hidden;
+
+	* {
+		position: fixed; z-index: -1;
+		top: 0; overflow: hidden;
+	}
+
+	.squares{
+		transition: all 0.2s ease;
+		* {
+			width: 100px; height: 100px;
+			@media (max-width: 1200px) {
+				opacity: 0;
+			}
+		}
+		.square1 {
+			transform:
+				translateX(5vw)
+				translateY(10vh)
+				rotate(250deg)
+			;
+			background-color: $purple-color;
+			filter: drop-shadow(0px 0px 5px $purple-color);
+		}
+		.square2 {
+			transform:
+				translateX(10vw)
+				translateY(80vh)
+				rotate(130deg)
+			;
+			background-color: $purple-color;
+			filter: drop-shadow(0px 0px 5px $purple-color);
+		}
+		.square3 {
+			transform:
+				translateX(20vw)
+				translateY(45vh)
+				rotate(60deg)
+			;
+			background-color: $cyan-color;
+			filter: drop-shadow(0px 0px 5px $cyan-color);
+		}
+		.square4 {
+			transform:
+				translateX(90vw)
+				translateY(20vh)
+				rotate(300deg)
+			;
+			background-color: $cyan-color;
+			filter: drop-shadow(0px 0px 5px $cyan-color);
+		}
+		.square5 {
+			transform:
+				translateX(70vw)
+				translateY(35vh)
+				rotate(013deg)
+			;
+			background-color: $purple-color;
+			filter: drop-shadow(0px 0px 5px $purple-color);
+		}
+		.square6 {
+			transform:
+				translateX(80vw)
+				translateY(70vh)
+				rotate(313deg)
+			;
+			background-color: $cyan-color;
+			filter: drop-shadow(0px 0px 5px $cyan-color);
+		}
+	}
+}
