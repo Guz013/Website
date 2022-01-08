@@ -8,7 +8,7 @@
 - [ ] Create more pages and a simple but dynamic navigation bar. [^](../src/pages/index.tsx#L7)
 
 #### Improvements
-- [ ] Add `<meta/>` tags and [schemas](https://schema.org) for better Search Engine Optimization (SEO).
+- [x] `1.0.1` Add `<meta/>` tags and [schemas](https://schema.org) for better Search Engine Optimization (SEO).
 
 - [ ] Import dynamically the social media icons based on the socials.json file to get the paths or file names without needing to manually go and add a new switch statement. [^](../src/components/SocialIcon.tsx#L6)
 

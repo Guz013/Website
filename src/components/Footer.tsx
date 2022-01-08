@@ -13,7 +13,7 @@ const Footer = () => {
 			</a>
 
 			<p className={style.copyright}>
-				By Gustavo &quot;Guz&quot; L. de Mello • {new Date().getFullYear()}
+				By {info.name} • {new Date().getFullYear()}
 			</p>
 
 			<a href={info.source.repo} target='_blank' rel='noreferrer'>
