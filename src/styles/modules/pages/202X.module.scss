@@ -1,0 +1,56 @@
+@import '../../variables.scss';
+@import '../../commons.scss';
+@import '../../mixins.scss';
+
+$index: 100;
+
+.main {
+	z-index: $index + 1;
+	position: absolute;
+
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+
+	background-color: #000;
+
+	color: #fff;
+
+	font-family: $guz-font;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	.glitch {
+		@include glitchTextEffect(true, false, 5s);
+	}
+
+	.date {
+		font-size: 1.7em;
+		$spacing: 0.5em;
+		letter-spacing: $spacing;
+		padding-left: $spacing;
+		margin: 0;
+
+		.year {
+			&:after {
+				content: '2022';
+				@include changingText('2022', '2023');
+			}
+		}
+	}
+
+	.quote {
+		font-family: $console-font;
+		font-size: 0.9em;
+		margin: 10px;
+	}
+
+	.coming {
+		font-family: $console-font;
+		font-size: 0.6em;
+		opacity: 0.2;
+	}
+}
