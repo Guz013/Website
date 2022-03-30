@@ -18,6 +18,7 @@
 		"paths": {
 			"@public/*": [ "./public/*" ],
 				"@content/*": [ "./public/content/*" ],
+					"@meta/*": [ "./public/content/meta/*" ],
 				"@fonts/*": [ "./public/fonts/*" ],
 				"@icons/*": [ "./public/icons/*" ],
 				"@images/*": [ "./public/images/*" ],

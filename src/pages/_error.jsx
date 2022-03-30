@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import style from '@modules/error';
+import style from '@modules/pages/error';
 
 const Error = ({ statusCode }) => {
 	return (

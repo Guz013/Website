@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 
-import style from '@modules/index';
+import style from '@modules/pages/index';
 
 import Card from '@components/Card';
 /*
