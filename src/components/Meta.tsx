@@ -10,7 +10,6 @@ const commons = {
 function Meta() {
 	return (
 		<>
-			<title>{commons.title}</title>
 			<meta name='description' content={commons.description}/>
 			<meta name='author' content={info.name}/>
 
