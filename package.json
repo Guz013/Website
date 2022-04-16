@@ -1,30 +1,24 @@
 {
-	"name": "website",
-	"private": true,
-	"version": "1.0.1",
-	"scripts": {
-		"dev": "next dev",
-		"build": "tsm src && tcm src && next build",
-		"start": "next start",
-		"lint": "stylelint ./ && next lint",
-		"prettier": "prettier -c ./",
-		"check": "npm run prettier && npm run lint"
-	},
-	"dependencies": {
-		"next": "12.0.7",
-		"react": "17.0.2",
-		"react-dom": "17.0.2",
-		"sass": "^1.45.1"
-	},
-	"devDependencies": {
-		"@types/node": "17.0.4",
-		"@types/react": "17.0.38",
-		"eslint": "8.5.0",
-		"eslint-config-next": "12.0.7",
-		"eslint-config-prettier": "^8.3.0",
-		"prettier": "^2.5.1",
-		"typed-css-modules": "^0.7.0",
-		"typed-scss-modules": "^4.1.1",
-		"typescript": "4.5.4"
-	}
+  "name": "monorepo-guz",
+  "version": "2.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "turbo": "latest"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "pnpm@6.32.8"
 }
