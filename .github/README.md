@@ -1,3 +1,6 @@
+> :warning: This repository is being archived in favor of a new project.
+> Go to [this repository](https://github.com/guz013/.guz) for the new source code and website.
+
 <div align='center'>
 <h1>
 	<b>&lt;Website.013&#47;&gt;</b>
